@@ -1,0 +1,23 @@
+{
+  "$schema": "https://zed.dev/schema/icon_themes/v0.3.0.json",
+  "name": "Pekoscript Icons",
+  "author": "Preston Brown",
+  "themes": [
+    {
+      "name": "Pekoscript Icons",
+      "appearance": "dark",
+      "file_suffixes": { "peko": "pekoscript" },
+      "file_icons": {
+        "pekoscript": { "path": "./icons/peko_dark.svg" }
+      }
+    },
+    {
+      "name": "Pekoscript Icons (Light)",
+      "appearance": "light",
+      "file_suffixes": { "peko": "pekoscript" },
+      "file_icons": {
+        "pekoscript": { "path": "./icons/peko_light.svg" }
+      }
+    }
+  ]
+}

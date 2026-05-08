@@ -1,0 +1,14 @@
+name             = "Pekoscript"
+grammar          = "pekoscript"
+path_suffixes    = ["peko"]
+line_comments     = ["//"]
+autoclose_before = ")}]'\"`"
+
+brackets = [
+    { start = "(", end = ")", close = true, newline = false },
+    { start = "[", end = "]", close = true, newline = false },
+    { start = "{", end = "}", close = true, newline = true },
+]
+
+[overrides.string]
+brackets = [{ start = "\"", end = "\"", close = true, newline = false }]
